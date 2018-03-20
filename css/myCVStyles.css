@@ -1,18 +1,20 @@
 body {
 	background-color: #555;
+	z-index: 10;
 }
 
 .container {
-	background-color: #ccc;
+	/* background-color: #ccc; */
+	background-color: #fff;
 }
 
 .left-header {
-	padding: 30px 0;
+	padding: 20px 0;
 	background-color: #C00;
 }
 
 .right-header {
-	padding: 30px 0;
+	padding: 60px 0 30px 0;
 	background-color: #111;
 }
 
@@ -50,6 +52,77 @@ img {
 	background-color: #aaF;
 }
 
+#rel {
+	position: relative;
+}
+
+#abs {
+	color: #555;
+	position: absolute;
+	top: 8px;
+	left: 75%;
+}
+
+#abs:hover {
+	color: #fff;
+	cursor: pointer;
+}
+
+.diagonal-split-background {
+	/* background-color: #013A6B; */
+	/* background-image: -webkit-linear-gradient(30deg, #013A6B 50%, #004E95 50%); */
+	background-color: #fff;
+	background-image: -webkit-linear-gradient(30deg, #fff 50%, #ddd 50%);
+}
+
+.diagonal-split-background-reversed {
+	background-color: #fff;
+	background-image: -webkit-linear-gradient(180deg, #ccc 50%, #ddd 50%);
+}
+
+.diagonal-split-background-reversed-2 {
+	background-color: #fff;
+	background-image: -webkit-linear-gradient(360deg, #fff 50%, #ddd 50%);
+}
+
+.diagonal-split-background-reversed-3 {
+	background-color: #fff;
+	background-image: -webkit-linear-gradient(90deg, #fff 50%, #ddd 50%);
+}
+
+.d-s-b {
+  background-color: #C00;
+  background-image: -webkit-linear-gradient(27deg, #C00 50%, #C55 50%);
+}
+
+.a-tag {
+	color: #888;
+}
+
+.a-tag:hover {
+	color: #22F;
+}
+
+.quote {
+	margin-top: 25px;
+	text-align: center;
+	color: #fff;
+}
+
+.quote:before {
+	content: open-quote;
+}
+
+.quote:after {
+	content: close-quote;
+}
+
+.quote-author {
+	color: #fff;
+	text-align: center;
+	margin-left: 180px;
+}
+
 @media (max-width: 768px) {
 	.nav-link {
 		text-align: center;
@@ -65,3 +138,39 @@ img {
 		width: 70%;
 	}
 }
+
+.restore-text {
+	position: absolute;
+	z-index: -5;
+	margin: auto 25%;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+	background-color: #C00 !important;
+	border-color: #C00
+}
+
+.btn-secondary, .btn-secondary:hover, .btn-secondary:active, .btn-secondary:visited {
+	background-color: #08030f !important;
+	border-color: #08030f
+}
+
+.modal-backdrop {
+	background-color: red;
+ }
+
+.modal-open {
+	background-color: black;	
+}
+
+.img-cover:hover {
+	background :url("../img/cartoon.png") center no-repeat;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	margin: auto;
+ }
+ 
+ .img-cover:hover img {
+	display: none;
+ }
