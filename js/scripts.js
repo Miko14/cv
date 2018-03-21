@@ -46,3 +46,11 @@ destryableObject.on('mouseenter', function() {
         console.log('randomNumber: ' + randomNumber + 'randomNumber2: '+randomNumber2);
     }
 });
+
+$('#my-photo').on('mouseover', function() {
+    this.src='img/cartoon.PNG';
+});
+
+$('#my-photo').on('mouseout', function() {
+    this.src='img/photo.png';
+});

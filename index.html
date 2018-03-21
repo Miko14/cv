@@ -18,7 +18,7 @@
             <div class="row">
                 <div class="col-12 col-md-3 left-header destroyable">
                 <!-- <div class="col-12 col-md-3"> -->
-                <!--<div class="col-12 col-md-3 d-s-b>-->          
+                <!-- <div class="col-12 col-md-3 d-s-b>           -->
                     <nav class="nav flex-column">
                         <a class="nav-link ml-4 p-3 destroyable" href="#about-me">#About me</a>
                         <a class="nav-link ml-4 p-3 destroyable" href="#contact-info">#Contact info</a>
@@ -36,10 +36,18 @@
                         <p id="abs" data-toggle="modal" data-target="#exampleModal">DESTROYER MODE</p>
                     </div>
                     <h2 id="name" class="destroyable">Michal Slezák</h2>
-                    <div class="img-cover">
-                        <img id="my-photo" src="img/fotka.png" class="rounded-circle destroyable iop" alt="my portrait photo">
-                    </div>
-                   
+                    <!-- <div class="img-cover">
+                        <img id="my-photo" src="img/photo.png" class="rounded-circle destroyable" alt="my portrait photo">
+                    </div> -->
+                    <!-- <div id="Library" class="rounded-circle destroyable"></div> -->
+                    <a href="https://www.linkedin.com/in/michal-slezak/" target="_blank">
+                        <img id="my-photo" class="rounded-circle" src='img/photo.png'/>
+                    </a>
+                    <!-- <div class="banner_column">
+                        <a href="https://www.linkedin.com/in/michal-slezak/" target="_blank">
+                            <img src="img/photo.png"/>
+                        </a>
+                    </div> -->
                     <p class="quote destroyable">Ani jeden mladý človek nie je tak nešikovný,<br>
                         aby nedospel k úspechu aspoň v jednej veci,<br>
                         ak je vytrvalý.
@@ -68,19 +76,31 @@
                     <div class="row">
                         <div class="col-12 diagonal-split-background-reversed-2 destroyable">
                             <h4 id="contact-info">#Personal info</h4>
-                            <p>Address</p>
-                            <p>Place of Birth</p>
-                            <p>info me</p>
+                            <p class="d-inline">Dátum narodenia:</p>
+                            <p class="d-inline ml-2"><em>26.07.1993</em></p>
+                            <p class="d-inline"><br>Miesto narodenia:</p>
+                            <p class="d-inline ml-2"><em>Myjava</em></p>
+                            <p class="d-inline"><br>Štátna príslušnosť:</p>
+                            <p class="d-inline ml-2"><em>Slovenská</em></p>
+                            <p class="d-inline"><br>Trvalý pobyt:</p>
+                            <p class="d-inline ml-2"><em>S.Jurkoviča 1207/52, 90501 Senica</em></p>
+                            <p class="d-inline"><br>Prechodný pobyt:</p>
+                            <p class="d-inline ml-2"><em>Rovniankova 1662/13, 85102 Bratislava 5</em></p>
                         </div>
                         <div class="col-12 diagonal-split-background-reversed destroyable">
                             <h4 id="contact-info">#Contact info</h4>
-                            <p>This is my contact info</p>
-                            <p>Contact information</p>
-                            <p>info me</p>
-                            <p>.</p>
-                            <p>.</p>
-                            <p>.</p>
-                            <p>.</p>
+                            <p class="d-inline">Telefón:</p>
+                            <p class="d-inline"><a class="d-inline ml-2" href="tel:+421907282784"><em>(+421)907 28 27 84</em></a></p>
+                            <p class="d-inline"><br>Email:</p>
+                            <p class="d-inline ml-2"><a href="mailto:m.slezak14@gmail.com?Subject=Hello%20from%20CV%20page" target="_blank">m.slezak14@gmail.com</a></p>
+                            <p class="d-inline"><br>LinkedIn:</p>
+                            <p class="d-inline ml-2"><a href="http://www.linkedin.com/in/michal-slezak" target="_blank">michal-slezak</a></p>
+                            <p class="d-inline"><br>GitHub:</p>
+                            <p class="d-inline ml-2"><a href="https://github.com/Miko14" target="_blank">Miko14</a></p>
+                            <p class="d-inline"><br>JaSpravím:</p>
+                            <p class="d-inline ml-2"><a href="https://www.jaspravim.sk/profil/drawme" target="_blank">DrawMe</a></p>
+                            <p class="d-inline"><br>Minerva Group, n.o.:</p>
+                            <p class="d-inline ml-2"><a href="http://minervagroup.sk/index.php/o-nas/michal-slezak" target="_blank">Minerva</a></p>
                         </div>
                     </div>
                 </div>
@@ -136,12 +156,26 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col diagonal-split-background-reversed-3 destroyable">
+                <div class="col-6 diagonal-split-background-reversed-3 destroyable">
                     <h4 id="language-skills">#Language skills</h4>
-                    <p>Progres Bars</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-success progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%">B2/C1 65%</div>
+                    </div>
                     <p>English</p>
-                    <p>German</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-info progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 90%">C2 90%</div>
+                    </div>
                     <p>Czech</p>
+                </div>
+                <div class="col-6 diagonal-split-background-reversed-3 destroyable">
+                    <h4>&nbsp;<h4>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 25%">A1 25%</div>
+                    </div>
+                    <p>German</p>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-warning progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 35%">A2 35%</div>
+                    </div>
                     <p>Spanish</p>
                 </div>
             </div>
@@ -149,7 +183,10 @@
                 <div class="col diagonal-split-background-reversed-3 destroyable">
                     <h4 id="other-skills">#Other skills</h4>
                     <h5 class="d-inline">Driving licence:</h5>
-                    <p class="d-inline ml-2">AM, A1, A2, B1, B2</p>
+                    <p class="d-inline ml-2">AM,&nbsp;&nbsp;A1,&nbsp;&nbsp;A2&nbsp;</p>
+                    <i class="fas fa-motorcycle fa-lg"></i>
+                    <p class="d-inline ml-2">B1,&nbsp;&nbsp;B2&nbsp;</p>
+                    <i class="fas fa-car fa-lg"></i>
                 </div>
             </div>
         </div>
@@ -182,6 +219,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/scripts.js"></script>
 

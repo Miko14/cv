@@ -1,6 +1,11 @@
 body {
 	background-color: #555;
 	z-index: 10;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+p {
+	line-height: 1.7em;
 }
 
 .container {
@@ -131,6 +136,9 @@ img {
       width: 100%;
      max-width: none;
    }
+   .banner_column {
+	   width: 120%;
+	}
 }
 
 @media (min-width: 991.98px) {
@@ -163,14 +171,48 @@ img {
 	background-color: black;	
 }
 
-.img-cover:hover {
+
+/*.banner_column {
+   width: 143%;
+   /*display: inline-block;
+   /*float: left;
+}*/
+
+/*
+
+.banner_column a {
+    display: inline-block;
+	margin: auto 25%;
+    width: 200px;
+    height: 200px;
+}
+
+.banner_column img {
+    width: 100%;
+    border-radius: 50%;
+}
+*/
+
+/*.img-cover:hover {
 	background :url("../img/cartoon.png") center no-repeat;
 	width: 200px;
 	height: 200px;
 	border-radius: 50%;
 	margin: auto;
- }
+}
  
- .img-cover:hover img {
+.img-cover:hover img {
 	display: none;
- }
+}
+
+#Library {
+   background-image: url('../img/photo.png');
+   height: 300px;
+   width: 300px;
+   margin: auto;
+}
+
+#Library:hover {
+   background-image: url('../img/cartoon.PNG');
+   margin: auto;
+}*/
