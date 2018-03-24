@@ -171,6 +171,19 @@ img {
 	background-color: black;	
 }
 
+.spacing-rel {
+	display: inline-block;
+	position: relative;
+}
+
+.spacing-abs {
+	position: absolute;
+	bottom: -2px;
+}
+
+.fa-star, .fa-star-half {
+	color: rgb(12, 102, 27);
+}
 
 /*.banner_column {
    width: 143%;
