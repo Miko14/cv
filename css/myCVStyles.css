@@ -8,6 +8,10 @@ p {
 	line-height: 1.7em;
 }
 
+h4 {
+	color: #577e81;
+}
+
 .container {
 	/* background-color: #ccc; */
 	background-color: #fff;
@@ -15,11 +19,12 @@ p {
 
 .left-header {
 	padding: 20px 0;
-	background-color: #C00;
+	/* background-color: #C00; */
+	background-color: #bd0101;
 }
 
 .right-header {
-	padding: 60px 0 30px 0;
+	padding: 100px 0 30px 0;
 	background-color: #111;
 }
 
@@ -64,7 +69,7 @@ img {
 #abs {
 	color: #555;
 	position: absolute;
-	top: 8px;
+	top: 6px;
 	left: 75%;
 }
 
@@ -100,14 +105,6 @@ img {
   background-image: -webkit-linear-gradient(27deg, #C00 50%, #C55 50%);
 }
 
-.a-tag {
-	color: #888;
-}
-
-.a-tag:hover {
-	color: #22F;
-}
-
 .quote {
 	margin-top: 25px;
 	text-align: center;
@@ -126,6 +123,12 @@ img {
 	color: #fff;
 	text-align: center;
 	margin-left: 180px;
+}
+
+@media (max-width: 436px) {
+	.margin-top {
+		margin-top: 28px;
+	}
 }
 
 @media (max-width: 768px) {
@@ -183,6 +186,59 @@ img {
 
 .fa-star, .fa-star-half {
 	color: rgb(12, 102, 27);
+}
+
+.last-section {
+	margin-bottom: 40px;
+}
+
+ul.programming-list > li, ul#facts-list > li {
+	list-style: none;
+	position: relative;
+}
+
+ul.programming-list > li::before {
+	position: absolute;
+	left: -1.4em;
+	top: 0.2em;
+	content: '\f058';
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	font-size: 1em;
+}
+
+ul#facts-list > li::before {
+	position: absolute;
+	left: -1.4em;
+	top: 0.2em;
+	font-family: "Font Awesome 5 Free";
+	font-size: 1em;
+}
+
+ul#facts-list > li:nth-child(odd)::before {
+	font-weight: 900;
+	content: '\f024';
+	color: #C00;
+}
+
+ul#facts-list > li:nth-child(even)::before {
+	font-weight: 500;	
+	content: '\f024';
+	color: #C00;
+}
+
+#about-me ~ p {
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+ul#facts-list > li {
+	text-align: justify;
+    text-justify: inter-word;
+}
+
+.padd {
+	padding: 15px;
 }
 
 /*.banner_column {
